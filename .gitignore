@@ -1,0 +1,29 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Model weights / Large binary files
+# *.pkl (Allowed global_bite_model.pkl)
+*.joblib
+*.zip
+*.tar.gz
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+
+# IDE / Editor logs
+.vscode/
+.idea/
+.DS_Store
+
+# Local database files
+*.db
+*.sqlite3
